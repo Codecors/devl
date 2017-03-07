@@ -1,0 +1,94 @@
+.branding {
+    font-size: 17px;
+}
+
+.showcase {
+    background: url("../img/showcase.jpg") no-repeat;
+    background-position: center;
+    height: 600px;
+    padding: 140px 100px;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.showcase hr {
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: #f44336;
+}
+
+.showcase p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    padding: 0;
+    margin: 0;
+}
+.section .fa {
+    font-size: 50px;
+}
+
+.section img {
+    width: 100%;
+}
+
+.w3-sidenav a {
+    padding: 16px;
+    font-weight: bold
+}
+
+#menu-wrap {
+    display: none;
+}
+
+.menu-close-title {
+    width: 100%;
+    background-color: #444444;
+    padding: 16px;
+}
+
+.menu-close-title > i:hover {
+    color: #f44336;
+}
+
+#menu-small-top > i:hover {
+    color: #f44336 !important;
+}
+
+
+#menu-sidenav {
+    z-index: 3;
+    width: 35%;
+    right: 0;
+}
+
+.contact-message {
+    resize: none;
+    margin: 16px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .showcase {
+        height: 500px;
+        padding: 60px 0;
+    }
+
+    .mtop {
+        margin-top: 10px;
+    }
+    #menu-large {
+        display: none;
+    }
+}
